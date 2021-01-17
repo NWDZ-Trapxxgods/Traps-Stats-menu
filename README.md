@@ -12,4 +12,13 @@ Then add
 
 if you run KFC AH delete lines 208 and 209 and remove _escMidT from the top private[] section.
 
-
+If you run Infistar remove 
+					_btnRespawn = _display displayCtrl 1010;
+					_btnRespawn ctrlShow true;
+					_btnRespawn ctrlSetScale 0.9;
+					if((canStand player) || (deathHandled))then
+					{
+						_btnRespawn ctrlEnable false;
+						_btnRespawn ctrlSetText 'by infiSTAR.de';
+					}
+ from AH.sqf
