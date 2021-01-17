@@ -9,3 +9,5 @@ in the if (!isDedicated) then { section
 Then add 
 
 #include "FG\stats\statdefines.hpp" at the bottom of description.ext
+
+if you dont have the defines they are also posted above
